@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+}
+.clearfix::after {
+  content: '';
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+  display: block;
+  clear: both;
+}
+html {
+  font-size: 10px;
+}
+.wrap {
+  background-color: #e5e5e5;
+  height: auto;
+}
+.wrap .header {
+  height: 10rem;
+  background-color: #ff8a00;
+  line-height: 10rem;
+}
+.wrap .header .content1 {
+  padding-top: 1.5rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.wrap .header .content1 .img1 {
+  float: left;
+}
+.wrap .header .content1 .img2 {
+  float: right;
+  margin-right: 3rem;
+}
+.wrap .header .content1 .img3 {
+  float: right;
+}
+.wrap .wrap1 {
+  margin-bottom: 3rem;
+  position: relative;
+}
+.wrap .wrap1 .img1 {
+  width: 100%;
+}
+.wrap .wrap1 .login {
+  position: absolute;
+  bottom: 10rem;
+  left: 45%;
+  text-align: center;
+  font-size: 2.6rem;
+}
+.wrap .wrap1 .login .img2 {
+  margin-bottom: 3rem;
+}
+.wrap .wrap1 .login button {
+  width: 100%;
+  height: 5rem;
+  background-color: #ff8903;
+  color: #fff;
+  font-size: 2.6rem;
+  border-color: #fff;
+  opacity: 0.8;
+}
+.wrap .list {
+  background-color: #fff;
+  padding-top: 2rem;
+  margin-bottom: 50%;
+}
+.wrap .list .u1 {
+  width: 90%;
+  margin: 0 auto;
+}
+.wrap .list .u1 li {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 0.1rem solid #999999;
+  background: url(0全部素材/image/right.png) no-repeat 642px 10px;
+}
+.wrap .list .u1 li span {
+  font-size: 3.5rem;
+}
+.wrap .footer {
+  background-color: #2f3130;
+  color: #939494;
+}
+.wrap .footer .f_t {
+  width: 95%;
+  border-bottom: 0.1rem solid #939494;
+  margin: 0 auto;
+}
+.wrap .footer .f_t span {
+  font-weight: bold;
+  display: block;
+  color: #939494;
+  padding: 2rem 0rem 2rem 0rem;
+  font-size: 2.3rem;
+}
+.wrap .footer .f_f {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.wrap .footer .f_f span {
+  display: block;
+  display: inline-block;
+  font-size: 2.3rem;
+  color: #939494;
+  width: 8rem;
+  margin-left: 4rem;
+}
+.wrap .footer .f_f .ip {
+  display: inline-block;
+}
+.wrap .footer .f_f .and {
+  display: inline-block;
+  margin-left: 20rem;
+}
+.wrap .footer .f_f .pp {
+  margin-top: 4rem;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.wrap .footer .f_f .pp .pp1 {
+  color: #939494;
+}

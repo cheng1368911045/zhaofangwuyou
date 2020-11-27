@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+}
+.clearfix::after {
+  content: '';
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+  display: block;
+  clear: both;
+}
+html {
+  font-size: 10px;
+}
+.wrap {
+  height: auto;
+  background-color: #e5e5e5;
+}
+.wrap .header {
+  height: 10rem;
+  background-color: #ff8a00;
+  line-height: 10rem;
+}
+.wrap .header .content1 {
+  padding-top: 1.5rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.wrap .header .content1 .img1 {
+  float: left;
+}
+.wrap .header .content1 .img2 {
+  float: right;
+  margin-right: 3rem;
+}
+.wrap .header .content1 .img3 {
+  float: right;
+}
+.wrap .swiper-container {
+  position: relative;
+}
+.wrap .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+.wrap .swiper-container .num {
+  z-index: 99;
+  position: absolute;
+  top: 33rem;
+  right: 4rem;
+  width: 8rem;
+  height: 8rem;
+  background-color: #000;
+  opacity: 0.3;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.wrap .swiper-container span {
+  z-index: 99;
+  position: absolute;
+  top: 35.5rem;
+  right: 1.3rem;
+  width: 8rem;
+  height: 8rem;
+  color: #fff;
+  font-size: 2rem;
+}
+.wrap .theme {
+  background-color: #fff;
+}
+.wrap .theme .content {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+.wrap .theme .content .h22 {
+  font-size: 3.5rem;
+}
+.wrap .theme .content p {
+  font-size: 2.6rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.wrap .theme .content .p1 .phone1 {
+  float: right;
+}
+.wrap .theme .content .p1 span {
+  color: red;
+}
+.wrap .theme .content .p2 {
+  color: #999999;
+}
+.wrap .theme .content .p3 a {
+  display: inline-block;
+  width: 20%;
+  height: 5rem;
+  line-height: 5rem;
+  border: none;
+  text-align: center;
+  margin-right: 5rem;
+  background-color: #dee9f0;
+  color: #849aae;
+}
+.wrap .house-detail {
+  background-color: #fff;
+  margin-bottom: 3rem;
+}
+.wrap .house-detail .detail-u1 {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.wrap .house-detail .detail-u1 li {
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  box-sizing: border-box;
+  border-bottom: 0.1rem solid #999999;
+}
+.wrap .house-detail .detail-u1 li span {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+.wrap .house-detail .detail-u1 .l11 {
+  text-align: center;
+}
+.wrap .house-detail .detail-u1 .l11 a {
+  color: #999999;
+}
+.wrap .house-text1 {
+  background-color: #fff;
+  margin-bottom: 3rem;
+}
+.wrap .house-text1 .wrap2 {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.wrap .house-text1 .wrap2 .h12 {
+  font-size: 4rem;
+  color: orange;
+  padding-bottom: 3rem;
+  border-bottom: solid 0.1rem #999999;
+  margin-bottom: 3rem;
+}
+.wrap .house-text1 .wrap2 .p12 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: solid 0.1rem #999999;
+}
+.wrap .house-text1 .wrap2 .p13 {
+  text-align: center;
+  font-size: 3rem;
+  color: #999999;
+}
+.wrap .house-introduce {
+  background-color: #fff;
+  margin-bottom: 3rem;
+}
+.wrap .house-introduce .wrap3 {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.wrap .house-introduce .wrap3 .house-feature {
+  font-size: 4rem;
+  color: orange;
+  padding-bottom: 3rem;
+  border-bottom: solid 0.1rem #999999;
+  margin-bottom: 3rem;
+}
+.wrap .house-introduce .wrap3 .house-u3 li {
+  margin-bottom: 2rem;
+  padding-bottom: 5rem;
+  border-bottom: solid 0.1rem orange;
+}
+.wrap .house-introduce .wrap3 .house-u3 li .img11 {
+  float: left;
+}
+.wrap .house-introduce .wrap3 .house-u3 li .message {
+  float: left;
+  margin-left: 2rem;
+  font-size: 3rem;
+}
+.wrap .house-introduce .wrap3 .house-u3 li .message .p15 {
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.wrap .house-introduce .wrap3 .house-u3 li .message .p16 {
+  margin-bottom: 1rem;
+}
+.wrap .house-introduce .wrap3 .house-u3 li .message .p17 a {
+  display: inline-block;
+  width: 30%;
+  height: 5rem;
+  border: none;
+  text-align: center;
+  margin-right: 5rem;
+  background-color: #dee9f0;
+  color: #849aae;
+}
+.wrap .house-detail2 {
+  background-color: #fff;
+  margin-bottom: 3rem;
+}
+.wrap .house-detail2 .house-u5 {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.wrap .house-detail2 .house-u5 li {
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  box-sizing: border-box;
+  border-bottom: 0.1rem solid #999999;
+}
+.wrap .house-detail2 .house-u5 li span {
+  float: left;
+  color: #999999;
+  box-sizing: border-box;
+}
+.wrap .house-detail2 .house-u5 li .gps {
+  border-bottom: 0.1rem solid #e5e5e5;
+  border-top: 0.1rem solid #e5e5e5;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.wrap .house-detail2 .house-u5 li .gps .g-tit {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  height: 5rem;
+  line-height: 5rem;
+  width: 88%;
+  margin: 0 auto;
+  border-bottom: 0.1rem solid #e5e5e5;
+}
+.wrap .house-detail2 .house-u5 li .gps .map {
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap .house-detail2 .house-u5 li .gps .map #container {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: "微软雅黑";
+}
+.wrap .house-detail2 .house-u5 .l11 {
+  text-align: center;
+}
+.wrap .house-detail2 .house-u5 .l11 a {
+  color: #999999;
+}
+.wrap .house-de2 {
+  background-color: #fff;
+  margin-bottom: 3rem;
+}
+.wrap .house-de2 .wrap4 {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.wrap .house-de2 .wrap4 .h14 {
+  font-size: 4rem;
+  padding-bottom: 3rem;
+  border-bottom: solid 0.1rem #999999;
+  margin-bottom: 3rem;
+}
+.wrap .house-de2 .wrap4 .u3 li {
+  margin-bottom: 2rem;
+  padding-bottom: 5rem;
+  border-bottom: solid 0.1rem #999999;
+}
+.wrap .house-de2 .wrap4 .u3 li .img11 {
+  float: left;
+}
+.wrap .house-de2 .wrap4 .u3 li .message {
+  float: left;
+  margin-left: 2rem;
+  font-size: 3rem;
+}
+.wrap .house-de2 .wrap4 .u3 li .message .p15 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 4.5rem;
+}
+.wrap .house-de2 .wrap4 .u3 li .message .p16 {
+  margin-bottom: 1rem;
+}
+.wrap .house-de2 .wrap4 .u3 li .message .p16 .ss2 {
+  color: orange;
+}
+.wrap .house-de2 .wrap4 .u3 li .message .ss1 {
+  float: left;
+}
+.wrap .house-de2 .wrap4 .u3 li .message .ss2 {
+  float: right;
+}
+.wrap .house-de2 .wrap4 .u3 li .message .p18 {
+  margin-bottom: 1rem;
+}
+.wrap .house-de2 .wrap4 .u3 li .message .p18 span {
+  color: #999999;
+}
+.wrap .house-de2 .wrap4 .u3 li .message .p17 a {
+  display: inline-block;
+  width: 30%;
+  height: 5rem;
+  border: none;
+  text-align: center;
+  margin-right: 5rem;
+  background-color: #dee9f0;
+  color: #849aae;
+}
+.wrap .house-de2 .wrap4 .u3 li .p20 {
+  width: 100%;
+  height: 8rem;
+  line-height: 8rem;
+  background-color: #f5f5f5;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0rem 0rem 0rem 2rem ;
+  margin-top: 1rem;
+}
+.wrap .house-de2 .wrap4 .u3 .l11 {
+  text-align: center;
+  border: none;
+  padding-top: 4rem;
+}
+.wrap .house-de2 .wrap4 .u3 .l11 a {
+  color: #999999;
+  font-size: 3rem;
+}
+.wrap .footer {
+  background-color: #2f3130;
+  color: #939494;
+}
+.wrap .footer .f_t {
+  width: 95%;
+  border-bottom: 0.1rem solid #939494;
+  margin: 0 auto;
+}
+.wrap .footer .f_t span {
+  font-weight: bold;
+  display: block;
+  color: #939494;
+  padding: 2rem 0rem 2rem 0rem;
+  font-size: 2.3rem;
+}
+.wrap .footer .f_f {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.wrap .footer .f_f span {
+  display: block;
+  display: inline-block;
+  font-size: 2.3rem;
+  color: #939494;
+  width: 8rem;
+  margin-left: 4rem;
+}
+.wrap .footer .f_f .ip {
+  display: inline-block;
+}
+.wrap .footer .f_f .and {
+  display: inline-block;
+  margin-left: 20rem;
+}
+.wrap .footer .f_f .pp {
+  margin-top: 4rem;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.wrap .footer .f_f .pp .pp1 {
+  color: #939494;
+}

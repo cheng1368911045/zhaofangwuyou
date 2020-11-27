@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+}
+.clearfix::after {
+  content: '';
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+  display: block;
+  clear: both;
+}
+html {
+  font-size: 10px;
+}
+.wrap {
+  height: auto;
+}
+.wrap .header {
+  height: 10rem;
+  background-color: #ff8a00;
+  line-height: 10rem;
+}
+.wrap .header .content1 {
+  padding-top: 1.5rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.wrap .header .content1 .img1 {
+  float: left;
+}
+.wrap .header .content1 .img2 {
+  float: right;
+  margin-right: 3rem;
+}
+.wrap .header .content1 .img3 {
+  float: right;
+}
+.wrap .search {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+}
+.wrap .s1 {
+  background-color: #ffffff;
+  width: 80%;
+  border-color: #999999;
+  border: 1px solid #999999;
+}
+.wrap .s1 .input1 {
+  height: 9rem;
+  font-size: 2.6rem;
+  border: none;
+}
+.wrap .s1 .img4 {
+  float: right;
+  padding-left: 2rem;
+  margin-top: 2.5rem;
+  margin-right: 3rem;
+  border-left: 0.3rem solid #000;
+}
+.wrap .title {
+  border-top: 0.1rem solid #999999;
+  border-bottom: 0.1rem solid #999999;
+}
+.wrap .title .title-ul {
+  height: 10rem;
+}
+.wrap .title .title-ul li {
+  float: left;
+  width: 25%;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 10rem;
+}
+.wrap .house-detail {
+  position: relative;
+}
+.wrap .house-detail .li-common {
+  padding: 5rem 0rem 5rem 0rem;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 2.3rem;
+  border-bottom: 0.1rem solid orange;
+}
+.wrap .house-detail .li-common div {
+  float: left;
+  margin-right: 2rem;
+}
+.wrap .house-detail .li-common .d_right .p1 {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.wrap .house-detail .li-common .d_right .p3 {
+  display: inline-block;
+  margin-right: 1rem;
+  color: #939494;
+}
+.wrap .house-detail .li-common .d_right .s11 {
+  display: inline-block;
+  color: orange;
+  font-weight: bold;
+}
+.wrap .house-detail .li-common .d_right .p4 {
+  color: #939494;
+  margin-top: 2rem;
+}
+.wrap .house-detail .title-first {
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 0 auto;
+  border: none;
+}
+.wrap .house-detail .title-first div {
+  float: left;
+  font-size: 2.4rem;
+  text-align: center;
+}
+.wrap .house-detail .title-first .t1-left {
+  box-sizing: border-box;
+  width: 20%;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 8rem;
+}
+.wrap .house-detail .title-first .t1-left .p1 {
+  background-color: #fff;
+}
+.wrap .house-detail .title-first .t1-left .p1 a {
+  padding-left: 3.6rem;
+  color: orange;
+}
+.wrap .house-detail .title-first .t1-left .p2 {
+  padding-left: 3.6rem;
+}
+.wrap .house-detail .title-first .t1-middle {
+  background-color: #fff;
+  width: 40%;
+}
+.wrap .house-detail .title-first .t1-middle .u-left li {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.wrap .house-detail .title-first .t1-middle .u-left li:nth-child(3) a {
+  color: orange;
+}
+.wrap .house-detail .title-first .t1-right {
+  background-color: #fff;
+  width: 40%;
+}
+.wrap .house-detail .title-first .t1-right .u-right li {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.wrap .house-detail .title-first .t1-right .u-right li:nth-child(1) a {
+  color: orange;
+}
+.wrap .house-detail .title-second {
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  border: none;
+  font-size: 2.4rem;
+}
+.wrap .house-detail .title-second .u2-left li {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.4rem solid #f0f0f0;
+}
+.wrap .house-detail .title-three {
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  border: none;
+  font-size: 2.4rem;
+}
+.wrap .house-detail .title-three .u3-left li {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.4rem solid #f0f0f0;
+}
+.wrap .house-detail .title-three .u3-left li input {
+  width: 3rem;
+  height: 3rem;
+  float: right;
+}
+.wrap .house-detail .title-three .u3-left li button {
+  width: 100%;
+  height: 6rem;
+  background-color: orange;
+  color: #fff;
+  font-size: 3rem;
+  border: none;
+}
+.wrap .house-detail .title-four {
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  border: none;
+  font-size: 2.4rem;
+}
+.wrap .house-detail .title-four li {
+  float: left;
+  font-size: 3rem;
+  width: 25%;
+  box-sizing: border-box;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.wrap .house-detail .title-four li a {
+  display: block;
+  width: 80%;
+  height: 5rem;
+  line-height: 5rem;
+  border: 0.1rem solid #000;
+}
+.wrap .house-detail .title-four div {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 0.1rem solid #000;
+}
+.wrap .house-detail .title-four .p1 {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.wrap .house-detail .shadow {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.3;
+  z-index: 1;
+}
+.wrap .footer {
+  background-color: #2f3130;
+  color: #939494;
+}
+.wrap .footer .f_t {
+  width: 95%;
+  border-bottom: 0.1rem solid #939494;
+  margin: 0 auto;
+}
+.wrap .footer .f_t span {
+  font-weight: bold;
+  display: block;
+  color: #939494;
+  padding: 2rem 0rem 2rem 0rem;
+  font-size: 2.3rem;
+}
+.wrap .footer .f_f {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.wrap .footer .f_f span {
+  display: block;
+  display: inline-block;
+  font-size: 2.3rem;
+  color: #939494;
+  width: 8rem;
+  margin-left: 4rem;
+}
+.wrap .footer .f_f .ip {
+  display: inline-block;
+}
+.wrap .footer .f_f .and {
+  display: inline-block;
+  margin-left: 20rem;
+}
+.wrap .footer .f_f .pp {
+  margin-top: 4rem;
+  font-size: 2.3rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.wrap .footer .f_f .pp .pp1 {
+  color: #939494;
+}
